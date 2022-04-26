@@ -6,9 +6,9 @@ with open("inputs/1669C","r") as r:
     #inp = for 
     #s[word for sentence in text for word in sentence]
     for i in inp[1::2]: 
-        l = list(map(lambda x: int(x)%2,i)) 
-        if(len(set([x for x in l[::2]]))+len(set([x for x in l[1::2]])))<=2:print('YES')
-        else:print('NO')
+            l = list(map(lambda x: int(x)%2,i)) 
+            if(len(set([x for x in l[::2]]))+len(set([x for x in l[1::2]])))<=2:print('YES')
+            else:print('NO')
 
 
 #My solution: 
